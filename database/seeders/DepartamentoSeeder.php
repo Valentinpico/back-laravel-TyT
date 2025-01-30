@@ -22,5 +22,12 @@ class DepartamentoSeeder extends Seeder
             'activo' => true,
             'idUsuarioCreacion' => 1,
         ]);
+
+        Departamento::create([
+            'codigo' => 'DEPT04',
+            'nombre' => 'Ventas y Marketing',
+            'activo' => true,
+            'idUsuarioCreacion' => 1,
+        ]);
     }
 }
